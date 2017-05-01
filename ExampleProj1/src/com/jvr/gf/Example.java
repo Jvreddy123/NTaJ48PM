@@ -9,7 +9,10 @@ public class Example {
     System.out.println("Hello-Git");
 	ArithmeticOperation aop=new ArithmeticOperation();
 	int sum=aop.sum(200,400);
+    int sub=aop.sub(500,200);
 	System.out.println("Sum::"+sum);
+	System.out.println("Sub::"+sub);
+	
 	}//main
 
 }//class
